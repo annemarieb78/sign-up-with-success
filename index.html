@@ -1,33 +1,70 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+    <title>Sign-up form | Success Message</title>
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
-</head>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <!-- Sign-up form start -->
+    <main>
+      <div class="container-main">
+        <div class="main-image">
+          <img src="./assets/images/illustration-sign-up-mobile.svg" />
+        </div>
+        <div class="container-text">
+          <h2>Stay updated!</h2>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <div class="points">
+            <ul>
+              <li class="point-1">
+                Product discovery and building what matters
+              </li>
+              <li class="point-2">Measuring to ensure updates are a success</li>
+              <li class="point-3">And much more!</li>
+            </ul>
+          </div>
+        </div>
+        <form class="container-signup">
+          <label for="email">Email address</label>
+          <input type="email" id="email" placeholder="name@company.com" />
+          <button class="subscribe">Subscribe to monthly newsletter</button>
+          <p id="error-message"></p>
+        </form>
+      </div>
 
-<body>
+      <!-- Sign-up form end -->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+      <!-- Success message start -->
+      <div class="container-success">
+        <p class="success-message">
+          Thanks for subscribing! A confirmation email has been sent to your
+          inbox. Please open it and click the button inside to confirm your
+          subscription.
+        </p>
+        <button class="dismiss">Dismiss message</button>
+      </div>
 
-</body>
-
+      <!-- Success message end -->
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
