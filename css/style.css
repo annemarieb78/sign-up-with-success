@@ -83,6 +83,41 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  margin: 0;
+  font-size: 1em;
+  font-family: "raleway", sans-serif;
+  color: #453e4f;
+  background-color: #fff;
+}
+
+ul {
+  list-style-image: ;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 20px 0;
+}
+
+p {
+  font-size: 1em;
+  width: 95%;
+}
+
+.main-image img {
+  width: 100vw;
+}
+
+.container-text,
+.container-signup,
+.container-success {
+  width: 90%;
+  padding: 0 20px 20px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -244,4 +279,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
