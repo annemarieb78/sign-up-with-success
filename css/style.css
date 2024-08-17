@@ -128,6 +128,10 @@ p {
   width: 90%;
 }
 
+.container-text ul li img {
+  margin: 0;
+}
+
 .container-text ul li {
   display: flex;
   align-items: start;
@@ -139,7 +143,6 @@ p {
 }
 
 /* Signup Form */
-
 .container-signup {
   display: flex;
   flex-direction: column;
@@ -163,7 +166,22 @@ p {
   padding: 0 15px;
 }
 
-.subscribe {
+.subscribe-button {
+  height: 3.5em;
+  font-size: 1em;
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.error {
+  color: red;
+}
+
+/* Success Message */
+
+.dismiss-button {
   height: 3.5em;
   font-size: 1em;
   color: #fff;
