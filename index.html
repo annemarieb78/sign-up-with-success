@@ -28,38 +28,46 @@
         <div class="container-text">
           <h2>Stay updated!</h2>
           <p>Join 60,000+ product managers receiving monthly updates on:</p>
-          <div class="points">
-            <ul>
-              <li class="point-1">
-                Product discovery and building what matters
-              </li>
-              <li class="point-2">Measuring to ensure updates are a success</li>
-              <li class="point-3">And much more!</li>
-            </ul>
-          </div>
+
+          <ul>
+            <li>
+              <img src="./assets/images/icon-list.svg" />
+              <p>Product discovery and building what matters</p>
+            </li>
+
+            <li>
+              <img src="./assets/images/icon-list.svg" />
+              <p>Measuring to ensure updates are a success</p>
+            </li>
+
+            <li>
+              <img src="./assets/images/icon-list.svg" />
+              <p>And much more!</p>
+            </li>
+          </ul>
         </div>
         <form class="container-signup">
-          <label for="email">Email address</label>
+          <label class="email">Email address</label>
           <input type="email" id="email" placeholder="name@company.com" />
           <button class="subscribe">Subscribe to monthly newsletter</button>
           <p id="error-message"></p>
         </form>
+
+        <!-- Sign-up form end -->
+
+        <!-- Success message start -->
+        <div class="container-success">
+          <p class="success-message">
+            Thanks for subscribing! A confirmation email has been sent to your
+            inbox. Please open it and click the button inside to confirm your
+            subscription.
+          </p>
+          <button class="dismiss">Dismiss message</button>
+        </div>
       </div>
-
-      <!-- Sign-up form end -->
-
-      <!-- Success message start -->
-      <div class="container-success">
-        <p class="success-message">
-          Thanks for subscribing! A confirmation email has been sent to your
-          inbox. Please open it and click the button inside to confirm your
-          subscription.
-        </p>
-        <button class="dismiss">Dismiss message</button>
-      </div>
-
       <!-- Success message end -->
     </main>
+
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
